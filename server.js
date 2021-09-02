@@ -23,6 +23,6 @@ app.get("/model4", (req, res) => {
   res.sendFile("model4.html");
 });
 
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log("PORT 8080");
 });
