@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: #fefefe;
+  border: 1px solid #12253b;
+  border-radius: 12px;
+  padding: 12px;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  background-color: #00dfff;
+  border-color: #00dfff;
+}

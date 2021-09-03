@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
     <!-- <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> -->
 
@@ -13,18 +14,33 @@
         src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script> -->
 
-    <title>Document</title>
+    <title>AR Last</title>
 </head>
 
-<body style="margin: 0px; overflow: hidden;">
-    <a-scene embedded arjs>
-        <a-entity camera></a-entity>
-        <a-assets>
-            <a-asset-item id="model" src="model/scene.gltf" crossOrigin="anonymous"></a-asset-item>
-        </a-assets>
-        <a-gltf-model src="#model" position="0 2 -3"></a-gltf-model>
-        <a-marker-camera preset='hiro'></a-marker-camera>
-    </a-scene>
+<body style="
+      margin: 0px;
+      overflow: hidden;
+      background: #50c9c3; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #96deda,
+        #50c9c3
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #96deda,
+        #50c9c3
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ">
+    <div class="container">
+        <a href="/public/model1.html">Model 1</a>
+        <a href="/public/model2.html">Model 2</a>
+        <a href="/public/model3.html">Model 3</a>
+        <a href="/public/model4.html">Model 4</a>
+        <a href="/public/model5.html">Model 5</a>
+        <a href="/public/model6.html">Model 6</a>
+        <a href="/public/model7.html">Model 7</a>
+    </div>
 </body>
 
 </html>
